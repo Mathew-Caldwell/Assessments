@@ -58,8 +58,8 @@ Implement an RFID authentication system with audio feedback using:
 
 | Field | Details |
 |-------|---------|
-| **Student Name** | [Your full name] |
-| **Student ID** | [Your student/enrollment ID] |
+| **Student Name** | Mathew Caldwell |
+| **Student ID** | 20143330 |
 | **Assessment** | A2 – RFID Access Control |
 | **Submission Date** | [Date submitted to Blackboard] |
 
@@ -81,7 +81,9 @@ Implement an RFID authentication system with audio feedback using:
 **Brief Description:**  
 Describe your RFID access control system: how many authorised cards, what tones you chose for granted/denied, and how you distinguish cards.
 
-[Your description here — 2–3 sentences]
+The RFID access control system has 2 authorised cards which are distinguished by having their UID stored in a list and checked against when reading an RFID.
+This isn't the most secure way but it seemed excessive for this assessment to encrypt the authorised cards UIDs.
+I used an RGB LED to show granted/denied where the LED will turn green for granted and it will turn red if denied.
 
 ---
 
