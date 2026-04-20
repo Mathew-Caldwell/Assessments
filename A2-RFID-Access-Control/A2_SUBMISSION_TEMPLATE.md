@@ -110,10 +110,13 @@ I used an RGB LED to show granted/denied where the LED will turn green for grant
 | **Demo Video** | 2 min showing both tone patterns, LEDs responding | ☐ Yes |
 
 **Breadboard Photo/Screenshot:**  
-[Describe what's shown in your evidence]
+There is a pico pi wired into a RGBLED and an RFID reader
 
 **Sample Serial Log Entry:**  
-[Paste 1-2 lines from your serial output showing card UID and access status]
+Card UID: 844f3cb
+Access Denied
+Card UID: ca7aefa5
+Access Granted
 
 ---
 
